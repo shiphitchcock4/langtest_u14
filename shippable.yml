@@ -3,9 +3,9 @@ language: node_js
 node_js:
   - 0.10
   - 0.12
-  - 4.2.3
-  - 4.6.0
-  - 5.12.0
+ # - 4.2.3
+ # - 4.6.0
+ # - 5.12.0
 build: 
   ci:   
     - node --version
