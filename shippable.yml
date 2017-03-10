@@ -9,9 +9,9 @@ node_js:
 build: 
   ci:   
     - node --version
-    - sleep 2m
+  #  - sleep 2m
     
-  pre_ci_boot:
-    image_name: drydock/u14nodall
-    image_tag: master
-    pull: true 
+ # pre_ci_boot:
+  #  image_name: drydock/u14nodall
+  #  image_tag: master
+  #  pull: true 
